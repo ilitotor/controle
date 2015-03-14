@@ -32,10 +32,10 @@ $(function (){
 		
 		var $li = $(this).closest('li');
 		
-//$li.find('input.revista').val($li.find('span.revista').html);
-		// $li.find('input.edicao').val($li.find('span.edicao').html);
-		// $li.find('input.plataforma').val($li.find('span.plataforma').html);
-		// $li.find('input.descricao').val($li.find('span.descricao').html);
+		$li.find('input.revista').val( $li.find('span.revista').html());
+		 $li.find('input.edicao').val($li.find('span.edicao').html());
+		 $li.find('input.plataforma').val($li.find('span.plataforma').html());
+		 $li.find('input.descricao').val($li.find('span.descricao').html());
 		
 		$li.addClass('edit');
 	});
